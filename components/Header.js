@@ -1,3 +1,12 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+export default function Header() {
+
+  const links =  [
+    { url: "/", label: "Home" },
+    { url: "/about", label: "About" },
+    { url: "/contact", label: "Contact" },
+  ];
+
+  return <nav>
+    {links.map(({ url, label }) => <a href={url}>{label}</a>)}
+  </nav>
 }

@@ -14,18 +14,7 @@ export default function Home() {
       <main>
         <Header />
         <div className='content-container'>
-          <Intro
-            title="Kristyna Hablova"
-            subtitle="something below the name?"
-            intro="this is an intro lorem ipsum bla bal"
-          />
-        </div>
-        <div className='content-container'>
-          <Intro
-            title="akdhakjdhaksjsdjasd"
-            subtitle="ashdkajsd jkashdjkashdjka"
-            intro="this is an intro lorem ipsum bla bal"
-          />
+          About stuff
         </div>
       </main>
 

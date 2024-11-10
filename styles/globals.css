@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 5rem 0;
+  padding: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -20,17 +20,24 @@ main {
   align-items: center;
 }
 
-code {
-  background: #e2e8f0;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.container {
+.content-container {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+nav {
+  display: inline-flex;
+  gap: 8px;
+  padding: 16px 0;
+  position: fixed;
+  top: 0;
 }
