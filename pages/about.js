@@ -11,7 +11,7 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main>
+      <main className="bg-red-100">
         <Header />
         <div className='content-container'>
           About stuff

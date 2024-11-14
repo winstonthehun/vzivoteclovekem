@@ -3,11 +3,6 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Intro from '@components/intro'
 
-// try this for fonts
-// https://prismic.io/blog/nextjs-fonts
-
-// setup background with https://tailwindcss.com/docs/background-color
-
 export default function Home() {
   return (
     <div className="page-container">
@@ -15,7 +10,7 @@ export default function Home() {
         <title>Next.js Starter!</title>
       </Head>
 
-      <main className="bg-red-500">
+      <main className="bg-red-100">
         <Header />
         <div className='content-container'>
           <Intro
