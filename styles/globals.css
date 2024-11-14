@@ -1,10 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   background-color: #f8fafc;
   padding: 0;
   margin: 0;
-  font-family: "Alice", serif;
-  font-weight: 400;
+  /* font-family: "Alice", serif; */
+  /* font-weight: 400; */
 }
 
 * {

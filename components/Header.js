@@ -7,6 +7,6 @@ export default function Header() {
   ];
 
   return <nav>
-    {links.map(({ url, label }) => <a href={url}>{label}</a>)}
+    {links.map(({ url, label }) => <a key={url} href={url}>{label}</a>)}
   </nav>
 }
